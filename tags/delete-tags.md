@@ -1,5 +1,5 @@
-###Delete remote
+### Delete remote
 `git push --delete origin tagname`
 
-###Delete local
+### Delete local
 `git tag --delete tagname`
