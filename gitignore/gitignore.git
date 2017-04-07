@@ -1,3 +1,0 @@
-```git config --global core.excludesfile ${HOME}/.gitignore```
-
-_Then create a ~/.gitignore. .gitignore follows glob syntax_

@@ -1,14 +1,16 @@
-# in master
-$ git merge a_branch
+**in master**
+    git merge a_branch
+
 CONFLICT (content): Merge conflict in conflict.txt
 Automatic merge failed; fix conflicts and then commit.
-$ git status -s
+    git status -s
+
 UU conflict.txt
 
-# we know the version of the file from the branch is the version we want.
-$ git checkout --theirs conflict.txt
-$ git add conflict.txt
-$ git commit
+**we know the version of the file from the branch is the version we want.**
+    git checkout --theirs conflict.txt
+    git add conflict.txt
+    git commit
 
 # Sometimes during a merge you want to take a file from one side wholesale.
 # The following aliases expose the ours and theirs commands which let you
