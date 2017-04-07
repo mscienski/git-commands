@@ -1,0 +1,1 @@
+    git branch -d -r origin/<remote branch name>
