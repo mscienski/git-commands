@@ -1,0 +1,1 @@
+    git push [DESTINATION] refs/remotes/[SOURCE]/*:refs/heads/*
